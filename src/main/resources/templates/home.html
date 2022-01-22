@@ -3,7 +3,36 @@
 <head th:replace="fragments/head"></head>
 <body>
     <header th:replace="fragments/header"></header>
-    <section class="container">Main body</section>
+
+    <section class="container">
+        <div class="wrapper"> <!-- wrapper div starts -->
+
+            <div class="fixed-bg bg-cover bg-gray-400">
+                <h1>Fixed Background scrolling</h1>
+            </div>
+
+            <div class="maincontent">
+                <section class="home">
+                    <h1>Helen Didsbury</h1>
+                    <p>Web Developer and Tech Support Specialist</p>
+
+                </section>
+                <section class="about">
+                    <h1>About Me</h1>
+                </section>
+                <section class="skills">
+                    <h1>Skills and Knowledge</h1>
+                </section>
+                <section class="portfolio">
+                    <h1>Portfolio</h1>
+                </section>
+                <section class="contact">
+                    <h1>Contact me Here!</h1>
+                </section>
+            </div>
+        </div>
+    </section>
+
     <footer th:replace="fragments/footer"></footer>
 </body>
 <!-- Tailwind Config script -->
