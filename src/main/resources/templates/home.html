@@ -1,12 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Helen Dev - Homepage</title>
-</head>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/head"></head>
 <body>
-    <header>Helen</header>
+    <header th:replace="fragments/header"></header>
     <section class="container">Main body</section>
-    <footer>footnotes</footer>
+    <footer th:replace="fragments/footer"></footer>
 </body>
 </html>
